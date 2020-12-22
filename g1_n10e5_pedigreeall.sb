@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --nodes 2
+#SBATCH --ntasks-per-node 1
+#SBATCH --exclusive
+#SBATCH --time 5:00:00
+#SBATCH --mem-per-cpu 1000
+#SBATCH --job-name SLiMs_g1_n10e5_pedigreeall
+#SBATCH --output SLiMs_g1_n10e5_pedigreeall.txt
+
+python3 g1_n10e5_pedigreeall.py
