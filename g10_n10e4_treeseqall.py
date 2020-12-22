@@ -5,7 +5,7 @@ import subprocess
 import multiprocessing
 
 ##set up needed paths
-dir="/scratch/br450/SLiM_ped_g1/"
+dir="/scratch/br450/SLiM_ped_g10/"
 
 slim_template= dir + "g10_treeseq_template.slim"
 
